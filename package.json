@@ -1,0 +1,32 @@
+{
+  "name": "israeli-bank-scrapers-api",
+  "version": "0.0.1",
+  "description": "A simple REST API that exposes the Israeli Bank Scrapers library",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/omercnet/israeli-bank-scrapers-api.git"
+  },
+  "keywords": [
+    "israel",
+    "israeli bank",
+    "israeli bank scraper",
+    "api"
+  ],
+  "author": "omercnet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omercnet/israeli-bank-scrapers-api/issues"
+  },
+  "homepage": "https://github.com/omercnet/israeli-bank-scrapers-api#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "israeli-bank-scrapers": "^0.9.1",
+    "morgan": "^1.10.0"
+  }
+}
