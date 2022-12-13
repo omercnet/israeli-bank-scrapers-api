@@ -25,7 +25,7 @@
   "homepage": "https://github.com/omercnet/israeli-bank-scrapers-api#readme",
   "dependencies": {
     "compression": "^1.7.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "israeli-bank-scrapers": "^0.9.1",
     "morgan": "^1.10.0"
   }
